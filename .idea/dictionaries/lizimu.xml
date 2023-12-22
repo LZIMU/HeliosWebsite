@@ -2,17 +2,23 @@
   <dictionary name="lizimu">
     <words>
       <w>aliyun</w>
+      <w>aliyuna</w>
       <w>autosizejs</w>
       <w>cainiao</w>
+      <w>dingtalk</w>
       <w>gaode</w>
       <w>heliso</w>
       <w>jobtask</w>
       <w>joinable</w>
+      <w>leetcode</w>
       <w>lightbulb</w>
       <w>linecons</w>
       <w>muke</w>
+      <w>shequ</w>
+      <w>sspai</w>
       <w>unstyled</w>
       <w>watsons</w>
+      <w>yuque</w>
     </words>
   </dictionary>
 </component>

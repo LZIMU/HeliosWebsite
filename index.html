@@ -122,7 +122,7 @@
                     <!-- 使用JavaScript生成菜单项数据 -->
                     <script>
                         var menuData = [
-                            { href: "#开发平台", iconClass: "linecons-star", title: "开发平台" },
+                            { href: "#常用站点", iconClass: "linecons-star", title: "常用站点" },
                             { href: "#测试环境", iconClass: "linecons-desktop", title: "测试环境" },
                             { href: "#知识文档", iconClass: "linecons-doc", title: "知识文档" },
                             { href: "#实用工具", iconClass: "linecons-cog", title: "实用工具" },
@@ -184,8 +184,8 @@
                 </ul>
             </nav>
 
-            <!-- 开发平台 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="开发平台"></i>开发平台</h4>
+            <!-- 常用站点 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用站点"></i>常用站点</h4>
             <div class="row">
                 <div class="col-sm-3">
                     <article class="xe-widget xe-conversations box2 label-info" data-url="https://sls.console.aliyun.com/lognext/project/helios-vendor/overview">
@@ -268,7 +268,7 @@
                     </article>
                 </div>
                 <div class="col-sm-3">
-                    <article class="xe-widget xe-conversations box2 label-info" data-url="https://open.huilianyi.com/ ">
+                    <article class="xe-widget xe-conversations box2 label-info" data-url="https://open.huilianyi.com/">
                         <div class="xe-comment-entry">
                             <figure class="xe-user-img">
                                 <img src="assets/images/logos/open.png" loading="lazy" alt="PVT Logo" class="img-circle" width="40">
@@ -280,9 +280,22 @@
                         </div>
                     </article>
                 </div>
+                <div class="col-sm-3">
+                    <article class="xe-widget xe-conversations box2 label-info" data-url="https://webapp.huilianyi.com/h5-core/?loginType=webapp">
+                        <div class="xe-comment-entry">
+                            <figure class="xe-user-img">
+                                <img src="assets/images/logos/helios.png" loading="lazy" alt="Logo" class="img-circle" width="40">
+                            </figure>
+                            <div class="xe-comment">
+                                <strong class="xe-user-name overflowClip_1">验证码登录入口</strong>
+                                <p class="overflowClip_2">汇联易验证码登录入口</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
             <br />
-            <!-- END 开发平台 -->
+            <!-- END 常用站点 -->
 
             <!-- 测试环境 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="测试环境"></i>测试环境</h4>
@@ -347,7 +360,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <article class="xe-widget xe-conversations box2 label-info" id="login-widget" data-url="https://appcoreuat.huilianyi.com/h5-core/?loginType=wx">
+                    <article class="xe-widget xe-conversations box2 label-info requires-login" id="login-widget" data-url="https://appcoreuat.huilianyi.com/h5-core/?loginType=wx">
                         <div class="xe-comment-entry">
                             <figure class="xe-user-img">
                                 <img src="assets/images/logos/helios.png" loading="lazy" alt="汇联易H5-UAT Logo" class="img-circle" width="40">
@@ -400,6 +413,60 @@
                                 <!-- 使用button或者其他交互式元素如果这是一个可点击的动作 -->
                                 <strong class="xe-user-name overflowClip_1">屈臣氏</strong>
                                 <p class="overflowClip_2">屈臣氏测试环境</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <article class="xe-widget xe-conversations box2 label-info requires-login" id="login-aliyuna1" data-url="https://www.huilianyi.com/huilianyi-wechat/h5-core/?loginType=wx">
+                        <div class="xe-comment-entry">
+                            <figure class="xe-user-img">
+                                <img src="assets/images/logos/aliyun.png" loading="lazy" alt="Logo" class="img-circle" width="40">
+                            </figure>
+                            <div class="xe-comment">
+                                <strong class="xe-user-name overflowClip_1">阿里云-A1</strong>
+                                <p class="overflowClip_2">需要填写自己的测试账号和密码！！！</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-3">
+                    <article class="xe-widget xe-conversations box2 label-info requires-login" id="login-aliyuna2" data-url="https://webapp-a2.huilianyi.com/?companyStr=&loginType=webapp">
+                        <div class="xe-comment-entry">
+                            <figure class="xe-user-img">
+                                <img src="assets/images/logos/aliyun.png" loading="lazy" alt="Logo" class="img-circle" width="40">
+                            </figure>
+                            <div class="xe-comment">
+                                <strong class="xe-user-name overflowClip_1">阿里云-A2</strong>
+                                <p class="overflowClip_2">需要填写自己的测试账号和密码！！！</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-3">
+                    <article class="xe-widget xe-conversations box2 label-info requires-login" id="login-tencent" data-url="https://www.huilianyi.com/huilianyi-wechat/h5-core/?corpId=wwf97876c3cb92bd85&companyStr=&loginType=wx">
+                        <div class="xe-comment-entry">
+                            <figure class="xe-user-img">
+                                <img src="assets/images/logos/tencent.png" loading="lazy" alt="Logo" class="img-circle" width="40">
+                            </figure>
+                            <div class="xe-comment">
+                                <strong class="xe-user-name overflowClip_1">腾讯云</strong>
+                                <p class="overflowClip_2">需要填写自己的测试账号和密码！！！</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-3">
+                    <article class="xe-widget xe-conversations box2 label-info requires-login" id="login-dingtalk" data-url="https://dingtalk-dd.huilianyi.com/?loginType=webapp">
+                        <div class="xe-comment-entry">
+                            <figure class="xe-user-img">
+                                <img src="assets/images/logos/dingtalk.png" loading="lazy" alt="Logo" class="img-circle" width="40">
+                            </figure>
+                            <div class="xe-comment">
+                                <strong class="xe-user-name overflowClip_1">钉钉云</strong>
+                                <p class="overflowClip_2">需要填写自己的测试账号和密码！！！</p>
                             </div>
                         </div>
                     </article>
@@ -733,44 +800,36 @@
 
     <script>
         // 设置一个标志来判断是否取消了账号密码的输入
-        let isCancelled = false;
-
-        // 尝试从本地存储获取账号和密码
-        let storedLoginName = localStorage.getItem('loginName');
-        let storedPassword = localStorage.getItem('password');
-
         document.addEventListener('click', function(event) {
-            if (isCancelled) {
-                // 如果标志为真，重置它并阻止执行点击事件
-                isCancelled = false;
-                event.preventDefault();
-                return;
-            }
-
             var target = event.target;
             while (target && !target.classList.contains('xe-widget')) {
                 target = target.parentElement;
             }
+
             if (target) {
                 var url = target.getAttribute('data-url');
                 if (url) {
-                    window.open(url, '_blank');
+                    if (target.classList.contains('requires-login')) {
+                        // 在弹出提示框之前重置 isCancelled
+                        isCancelled = false;
+                        handleLogin(target, url);
+                    } else {
+                        // 对于不需要登录的模块，直接在新标签页中打开链接
+                        window.open(url, '_blank');
+                    }
                 }
             }
         });
 
-        // 环境账号密码填写处理
-        document.getElementById('login-widget').addEventListener('click', function(event) {
-            var loginName = prompt("请输入您的账号:", storedLoginName || '');
-            // 如果点击了取消，设置取消标志并终止执行
+        function handleLogin(element, baseUrl) {
+            var loginName = prompt("请输入您的账号:");
             if (loginName === null) {
                 isCancelled = true;
-                event.preventDefault(); // 阻止默认动作，比如链接跳转
+                event.preventDefault(); // 阻止默认动作
                 return;
             }
 
-            var password = prompt("请输入您的密码:", storedPassword || '');
-            // 如果点击了取消，设置取消标志并终止执行
+            var password = prompt("请输入您的密码:");
             if (password === null) {
                 isCancelled = true;
                 event.preventDefault(); // 阻止默认动作
@@ -778,16 +837,27 @@
             }
 
             if (loginName && password) {
-                // 存储账号和密码到本地存储
-                localStorage.setItem('loginName', loginName);
-                localStorage.setItem('password', password);
-
-                var baseUrl = this.getAttribute('data-url');
                 var newUrl = baseUrl + '&loginName=' + encodeURIComponent(loginName) + '&pwd=' + encodeURIComponent(password);
-                this.setAttribute('data-url', newUrl);
-                // 这里可以添加代码来处理新的 URL
-                console.log("新的 URL:", newUrl); // 仅用于调试
+                console.log("新的 URL:", newUrl); // 调试日志
+                window.location.href = newUrl;  //当前页面加载新的URL
             }
+        }
+
+        // 为需要登录的特定元素添加类名 'requires-login'
+        document.getElementById('login-widget').addEventListener('click', function(event) {
+            // 汇联易 UAT
+        });
+        document.getElementById('login-aliyuna1').addEventListener('click', function(event) {
+            // 阿里云 A1
+        });
+        document.getElementById('login-aliyuna2').addEventListener('click', function(event) {
+            // 阿里云 A2
+        });
+        document.getElementById('login-tencent').addEventListener('click', function(event) {
+            // 腾讯云
+        });
+        document.getElementById('login-dingtalk').addEventListener('click', function(event) {
+            // 钉钉云
         });
 
         document.addEventListener('DOMContentLoaded', function() {
